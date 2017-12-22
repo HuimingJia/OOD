@@ -1,0 +1,13 @@
+I believe this is very broad and vast subject (attended one evening event at Uber and they can't cover what they planned despite too late in night). All machine learning, data mining, massive data collections, and so on. High level use cases:-
+Client Side:
+- monitor continuous driver location and update to backend (may be optimized if car moved 10 meter)
+- keep real time map showing continuous moving location (reverse geocode to lat/long)
+- drive app can see rider requests in order of nearest to farthest
+
+Server Side:
+- map rider's lat/long and find nearest car/driver asap
+- keep real time in memory map data showing continuous moving location (reverse geocode to lat/long)
+- send Push Notifications (rider request), rider's receipt
+- send email receipt
+- update payment to payment gateways
+- data store for payment, riders profiles, driver profile, car profile, so on
